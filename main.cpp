@@ -24,6 +24,14 @@ int main()
     {
         level += 1;
     }
+    else if (experiencePoints >= 0)
+    {
+        level += 0;
+    }
+    else
+    {
+        cout << "Kоличество очков должно быть больше 0." << endl;
+    }
 
     cout << "Ваш уровень: " << level << endl;
 }
